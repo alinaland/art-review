@@ -20,7 +20,7 @@ span {
   text-align: center;
   font-size: 40px;
   color: #fa950a;
-  padding: 20px;
+  padding: 10px;
 }
 
 h2 {
@@ -31,10 +31,11 @@ h2 {
   background-color: rgba(244, 232, 204, 0.5);
   padding: 20px;
   border-radius: 9px;
-  font-size: 25px;
+  font-size: 20px;
 }
 h2:hover {
   background-color: rgba(221, 130, 154, 0.7);
+  color: #f4e8cc;
   transition: all 200ms ease-in-out;
 }
 
@@ -50,12 +51,12 @@ img {
 p {
   font-family: var(--default-font);
   text-align: justify;
-  font-size: 25px;
+  font-size: 22px;
   color: #f4e8cc;
   background-color: rgba(21, 52, 86, 0.8);
   padding: 40px 70px;
   border-radius: 9px;
-  line-height: 38px;
+  line-height: 32px;
   display: block;
 }
 
