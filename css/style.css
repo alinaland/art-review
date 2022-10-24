@@ -1,0 +1,95 @@
+:root {
+  --default-font: "Playfair Display", serif;
+}
+
+body {
+  background-image: url(https://canadaonlinevr.com/wp-content/uploads/2021/04/KHB2021-010-D1-scaled.jpg);
+}
+h1 {
+  font-family: var(--default-font);
+  font-weight: 600;
+  text-align: center;
+  font-size: 68px;
+  color: #f4e8cc;
+  background-color: rgba(21, 52, 86, 0.7);
+  padding: 20px;
+  border-radius: 9px;
+}
+span {
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+  color: #fa950a;
+  padding: 20px;
+}
+
+h2 {
+  font-family: var(--default-font);
+  font-weight: 600;
+  text-align: center;
+  color: rgba(21, 52, 86, 0.7);
+  background-color: rgba(244, 232, 204, 0.5);
+  padding: 20px;
+  border-radius: 9px;
+  font-size: 25px;
+}
+h2:hover {
+  background-color: rgba(221, 130, 154, 0.7);
+  transition: all 200ms ease-in-out;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 9px;
+}
+.container {
+  margin: 20px 300px;
+}
+p {
+  font-family: var(--default-font);
+  text-align: justify;
+  font-size: 25px;
+  color: #f4e8cc;
+  background-color: rgba(21, 52, 86, 0.8);
+  padding: 40px 70px;
+  border-radius: 9px;
+  line-height: 38px;
+  display: block;
+}
+
+p a {
+  text-align: center;
+}
+
+button {
+  font-family: var(--default-font);
+  padding: 15px 20px;
+  color: #f4e8cc;
+  display: block;
+  text-decoration: none;
+  font-size: 19px;
+  border-radius: 40px;
+  margin: 0px auto;
+  border: 3px solid #fa950a;
+  background: transparent;
+  box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #f4e8cc;
+  color: #fa950a;
+  cursor: pointer;
+}
+.gallery {
+  display: block;
+  text-decoration: none;
+  color: #f4e8cc;
+}
+.gallery:hover {
+  text-decoration: underline;
+  color: #fa950a;
+  cursor: pointer;
+}
